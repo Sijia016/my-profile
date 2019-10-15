@@ -1,0 +1,81 @@
+body{
+	background: #f5f0e3;
+	color: rgb(100,100,100);
+	font-family: 'Cormorant Upright', serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px 20px;
+}
+h1,h2,h3{
+	font-family: 'Permanent Marker', cursive;
+	margin: 30px;
+	color: rgb(70,70,70);
+}
+h1{
+	color: #40bfc1;
+	font-size: 40px;
+}
+
+p{
+	margin: 20px 20px;
+}
+
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 30px auto;
+}
+
+@media(max-width: 760px){
+
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px){
+
+	.container{
+		width: 400px;
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 25px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 2px;
+	margin:10px 10px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50px;
+
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 45px;
+	color: rgb(200,200,200);
+}
+
+.list-inline i:hover{
+	color:#40bfc1;
+}
+#introduction p{
+	margin: 24px;
+	marker-bottom: 20px;
+}
